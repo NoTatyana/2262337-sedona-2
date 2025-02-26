@@ -2,7 +2,7 @@
 
 * Студент: [Noskova Tatyana](https://up.htmlacademy.ru/htmlcss-individual/2/user/2262337).
 * Наставник: [Иван Жарков](https://htmlacademy.ru/profile/id191422).
-
+* Сайт: [Проект Седона](https://notatyana.github.io/2262337-sedona-2/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
