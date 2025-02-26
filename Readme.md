@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Noskova Tatyana](https://up.htmlacademy.ru/htmlcss-individual/2/user/2262337).
-* Наставник: `Неизвестно`.
+* Наставник: [Иван Жарков](https://htmlacademy.ru/profile/id191422).
 
 ---
 
