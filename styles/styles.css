@@ -1,0 +1,195 @@
+@font-face {
+font-family: "PT Sans";
+font-style: normal;
+font-weight: 400;
+src: url(../fonts/ptsans-400.woff2) format("woff2");
+font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/ptsans-700.woff2) format("woff2");
+  font-display: swap;
+  }
+
+  /*index*/
+html{
+  height: 100%;
+}
+  body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    background-color: #FFFFFF;
+  }
+  .navigation {
+display: flex;
+width: 1200px;
+margin: 0 auto;
+  }
+  .navigation-list {
+    margin: 0;
+    padding: 0;
+    width: 510;
+  }
+  .logo-link{
+padding-left: 30px;
+  }
+  .navigation-user {
+    max-width: 270px;
+    margin-left: auto;
+  }
+
+  .navigation-link {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .main-container {
+    flex-grow: 1;
+  }
+  .page-container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .logo {
+    display: block;
+    margin: 0 auto;
+  }
+ .bacgraund-main {
+    background-image: url(../image/border-index.png), url(../image/index-background.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  p {
+    text-align: center;
+  }
+  .slogan {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .desc {
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+  }
+  .advantages-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .advantages-title,
+  .facilities-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+      }
+      .facilities-list {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      .facilities-item{
+      width: 400px;
+      
+      }
+
+  .advantages-description,
+  .facilities-description {
+   color: #333333;
+  }
+  .advantages-light,
+  .newsletter-title,
+  .ewsletter-desk {
+    color: #FFFFFF;
+    }
+.advantages-light {
+  background-color: #82B3D3;
+}
+.advantages-blue{
+background-color: rgba(131, 179, 211, 0.3);
+}
+.advantages-clear,
+.facilities-present,
+.facilities-home {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.newsletter-button-text {
+  line-height: 24px;
+}
+  .tel-link {
+      text-decoration: none;
+      text-align: center;
+      font-size: 40px;
+      line-height: 40px;
+      color: #000000;
+  }
+
+  /*Catalog*/
+
+  .catalog-product{
+    color: #FFFFFF;
+  }
+  .inner-header-title{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    text-align: left;
+  }
+  .breatcrumbs-link{
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+  .catalog-filter-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .control {
+    line-height: 23px;
+  }
+.product-card-title{
+  font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   text-align: left;
+}
+.product-card-text,
+.product-card-link {
+  text-align: left;
+}
+.product-card-price,
+.product-card-button {
+  text-align: right;
+}
+.product-card-rating{
+  font-size: 16px;
+   line-height: 20px;
+   text-transform: uppercase;
+   color: #333333;
+}
+.newsletter-catalog,
+.newsletter-title-dark {
+  color: #000000;
+}
